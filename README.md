@@ -1,2 +1,2 @@
-# DinamoMachine.github.io
+# Журавлев Аким
 Мой первый сайт
