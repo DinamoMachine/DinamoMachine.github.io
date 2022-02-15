@@ -1,0 +1,497 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(52,64,81);
+}
+
+.logo{
+    color: rgb(255,255,255);
+    font-size: 23px;
+    line-height: 60px;
+    padding-left: 390px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 430px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: rgb(255,255,255);
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/guy_main.png) 90% 100%/auto 85% no-repeat, url(../img/bg_main.jpg) center/cover no-repeat;
+}
+
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: rgb(44, 56, 74);
+    text-align: center;
+}
+
+.title__container h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.title__container h4{
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(121, 129, 141);
+}
+
+.title__container input{
+    height: 40px;
+    text-align: center;
+    margin-top: 60px;
+    border: 2px solid rgb(109, 118, 130);
+    background: none;
+    border-radius: 5px;
+    color: rgb(109, 118, 130);
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0px 15px;
+    margin-left: 30px;
+}
+
+.biography h2{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+.orange_line{
+    background-color: rgb(240,122,13);
+    width: 70px;
+    height: 5px;
+    margin: auto;
+    margin-top: 33px;
+    
+}
+.biography h3{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.biography_text{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(63,73,90);
+}
+
+.biography_button{
+    text-align: center; 
+}
+
+.biography input{
+    height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid rgb(111, 112, 126);
+    border-radius: 5px;
+    background: none;
+    color: rgb(111,112,126);
+    font-weight: bold;
+    padding: 0px 15px;
+}
+
+.skils h2{
+    text-align: center;
+    font-size: 33px;
+    padding-top: 108px;
+    color: rgb(38, 50, 68);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.skils{
+    background: url(../img/bg_skils.jpg) center/cover no-repeat;
+    margin-top: 100px;
+    padding-bottom: 110px;
+    height: 520px;
+}
+
+.skils_menu li{
+    float: left;
+    text-align: center;
+    padding-top: 140px;
+    margin-left: 33px;
+    font-size: 16px;
+    color: rgb(86, 95, 110);
+    font-weight: bold;
+}
+
+.skils_menu{
+    margin-left: 280px;
+}
+.skils_menu h3{
+    color: rgb(240,122,13);
+    font-size: 18px;
+    font-weight: bold;
+}
+.case h2{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(56, 67, 84);
+}
+
+.case_text p{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(63, 73, 90);
+}
+
+.bg_case{
+    background: url(../img/bg_case.jpg) no-repeat;
+    height: 590px;
+}
+
+.client{
+    margin-left: 388px;
+}
+.client h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(56, 67, 84);
+    
+}
+.client p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(56, 67, 84);
+}
+.website{
+    margin-left: 388px;
+    float: left;
+}
+.website h3{
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(56, 67, 84);
+}
+.website p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(56, 67, 84);
+    margin-left: 0px;
+}
+
+.name_ptojekt{
+    margin-left: 670px;
+}
+
+.name_ptojekt h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(56, 67, 84);
+}
+
+.name_ptojekt p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(56, 67, 84);
+    margin-left: 0px;
+    text-align: justify;
+}
+
+.case input{
+    border: 2px solid rgb(99, 181, 174);
+    height: 45px;
+    width: 200px;
+    border-radius: 8px;
+    background: rgb(99, 181, 174);
+    font-size: 20px;
+    color: white;
+    margin-left: 388px;
+}
+
+.price h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(28,37,52);
+}
+
+.type_site h3{
+    margin-left: 500px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(28,37,52);
+}
+
+.type_site select{
+    border: 2px solid rgb(238, 238, 238);
+    margin-left: 500px;
+    width: 890px;
+    height: 60px;
+    background: rgb(238, 238, 238);
+}
+
+.gray_line{
+    width: 890px;
+    height: 3px;
+    background-color: rgb(209, 209, 209);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.price h5{
+    margin-left: 500px;
+    float: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.price p{
+    margin-left: 1366px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.statistics{
+    background: url(../img/bg_statistics.jpg) center/cover no-repeat;
+    height: 500px;
+    margin-top: 150px;
+}
+.statistics h2{
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.statistics li{
+    text-align: center;
+    float: left;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.statistics_menu{
+    margin-left: 300px;
+}
+
+.statistics_menu h3{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 30px;
+    color: rgb(50, 62, 79);
+    margin-bottom: 30px;
+}
+
+.statistics_menu p{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(50, 62, 79);
+}
+
+.reviews h2{
+    text-align: center;
+    margin-top: 105px;
+    font-size: 33px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb (36, 48, 66);
+}
+
+.img_reviews{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reviews p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.circle_orange{
+    width: 10px; 
+    height: 10px;
+    background: rgb(240,122,13);
+    border-radius: 50%;
+}
+
+.circle_gray{
+    width: 10px; 
+    height: 10px;
+    background: rgb(207,210,215);
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.circle_gray1{
+    width: 10px; 
+    height: 10px;
+    background: rgb(207,210,215);
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.circles{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contacts{
+    background: url(../img/bg_contact.jpg) center/cover no-repeat;
+    height: 810px;
+    margin-top: 90px;
+}
+
+.contacts h2{
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.my_contact_text{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+.contacts_ul{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 530px;
+}
+
+.contacts li{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.img_contacts{
+    margin-bottom: 15px;
+}
+
+.contacts h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.input_text input{
+    border: 2px solid rgb(210, 214, 220);
+    width: 350px;
+    height: 35px;
+    background: rgb(210, 214, 220);
+    margin-right: 30px;
+    margin-top: 45px;
+}
+
+.input_text{
+    margin-left: 580px; 
+}
+
+.message_text input{
+    border: 2px solid rgb(210, 214, 220);
+    width: 735px;
+    height: 95px;
+    background: rgb(210, 214, 220);
+    margin-top: 15px;
+}
+
+.message_text{
+    margin-left: 580px;
+}
+
+.botton_contacts{
+    margin-left: 880px;
+    margin-top: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 45px;
+    width: 125px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+
+.map{
+    background: url(../img/bg_map.jpg) center/cover no-repeat;
+    height: 338px;
+    width: 100%;
+    padding-top: 145px;
+}
+
+.map p{
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid white;
+    height: 50px;
+    width: 135px;
+    background: white;
+    margin-left: 865px;
+    margin-top:;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 1px 2px 8px #616264;
+}
+
+.end{
+    width: 100%;
+    height: 95px;
+    background-color: rgb(52,64,81);
+}
+
+.end p{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    line-height: 95px;
+    font-weight: bold;
+}
